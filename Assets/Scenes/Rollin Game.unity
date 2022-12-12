@@ -2161,6 +2161,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Points: 0
+  coins: {fileID: 253127061}
+  totalCoins: 0
 --- !u!4 &680149671 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2448785334805525195, guid: cead566afbe57f84a8b2042bceb532df, type: 3}
@@ -5633,7 +5635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3167988942379492874, guid: 2afad0072059551448a97d9d03aa5219, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3167988942379492885, guid: 2afad0072059551448a97d9d03aa5219, type: 3}
       propertyPath: m_Name
